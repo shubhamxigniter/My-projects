@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#game-title{
+    background-color: aqua;
+    text-align: center;
+}
+
+#click{
+    text-align: center;
+}
+#score{
+    text-align: center;
+}
+
+#grid{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+}
+#center{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
